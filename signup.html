@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>FarmEzee | Login</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="loginStyle.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
+</head>
+
+<body>
+    
+        
+<!--    navbar starts here-->
+   
+   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">FarmEzee</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+    </ul>
+       
+    <ul class="navbar-nav">
+        
+    </ul>
+        </div>
+
+</nav>
+    
+    
+<!--    Navbar ends here-->
+<div class="mainBody">
+   <div class="container loginLayout">
+      <div class="row">
+      
+       <div class="col-md-6 gray">
+                
+                <img src="%E2%80%94Pngtree%E2%80%94farm%20animals_3351853.png" class="welcomeImg img-fluid" alt="">
+                <h6 class="noAcc">Do you have an account already?<a href="login.html">Login-in here</a></h6>
+                <p>Need help? Contact: +91 9876543210</p>
+       </div>
+       <div class="col-md-6 section2">
+           
+        <div class="loginSection">
+            <div class="loginHead">
+                <h1>SIGN-UP HERE! <i class="far fa-hand-point-down"></i></h1>
+            </div>
+            <div class="loginBody green">
+                <form onSubmit = "return checkPassword(this)">
+                   <div class="form-group">
+                     <label for="exampleInputEmail1">Email address</label>
+                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                     
+                   </div>
+                   <div class="form-group">
+                     <label for="exampleInputPassword1">Password</label>
+                     <input type="password" class="form-control" id="exampleInputPassword1">
+                   </div>
+                   <div class="form-group">
+                    <label for="exampleInputPassword1">Re-type Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword2">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputnumber">Phone-number</label>
+                    <input type="number" class="form-control" id="mobile">
+                  </div>
+                   <div class="form-group form-check">
+                    
+                     
+                   </div>
+                   <button type="submit" class="btn btn-success" >Sign-up</button>
+                 </form>
+            </div>
+        </div>
+
+           
+       </div>
+       </div>
+       </div>
+    </div>
+    <script> 
+          
+        // Function to check Whether both passwords 
+        // is same or not. 
+        function checkPassword(form) { 
+            password1 = form.exampleInputPassword1.value; 
+            password2 = form.exampleInputPassword2.value; 
+
+            // If password not entered 
+            if (password1 == '') 
+                alert ("Please enter Password"); 
+                  
+            // If confirm password not entered 
+            else if (password2 == '') 
+                alert ("Please enter confirm password"); 
+                  
+            // If Not same return False.     
+            else if (password1 != password2) { 
+                alert ("\nPassword did not match: Please try again...") 
+                return false; 
+            } 
+
+            // If same return True. 
+            else{ 
+                alert("Password Match: Welcome to GeeksforGeeks!") 
+                return true; 
+            } 
+        } 
+    </script> 
+    
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

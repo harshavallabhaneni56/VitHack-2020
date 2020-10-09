@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+        background-image: url(loginBGArtboard%201.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Acme', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;  /* Remove scrollbar space */
+    background: rgba(0,67,105,0.4);
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: rgba(0,67,105,0.8);
+    border-radius: 30px;
+
+}
+
+*{
+    outline: none !important;
+}
+
+.green{
+    background-color: #004445;
+    border:2px white solid;
+    padding: 20px;
+    margin:40px;
+    margin-top: 0px;
+    border-bottom-right-radius: 80px;
+    color:white;
+    
+}
+
+.welcomeImg{
+    background-size: cover;
+    
+}
+
+.gray{
+    background-color: #fafab5;
+    border-top-left-radius: 80px;
+    border:20px solid ghostwhite;
+    padding: 40px;
+    padding-bottom: 10px;
+    
+}
+
+.gray p{
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.noAcc{
+    text-align: center;
+    margin-top: -20px;
+}
+
+.loginLayout{
+    margin-top:10px;
+    border: 2px solid transparent;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    padding:0px;
+    box-shadow: 20px 8px rgba(246,215,67,0.6);
+    
+}
+
+.loginHead{
+    padding: 15px;
+    color:#004445;
+/*    text-shadow: 2px 2px gray;*/
+
+}
+
+.loginHead h1{
+    font-size: 50px !important;
+    font-weight: 600;
+}
+
+@media(max-width:504px)
+{
+    .loginHead h1{
+    font-size: 40px !important;
+    font-weight: 500;
+}
+}
+
+
+.section2{
+    border-left: 0px;
+    background-color: ghostwhite;
+    border-bottom-right-radius: 80px;
+}
+
+.mainBody{
+    padding: 40px;
+
+}
+
+.gray h1{
+    color:white;
+    text-shadow: 2px 2px lightgray;
+}
+
+.bg-dark{
+    background-color: #004445 !important
+}
