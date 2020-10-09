@@ -52,6 +52,7 @@ body{
     padding: 40px;
     padding-bottom: 10px;
     
+    
 }
 
 .gray p{
@@ -71,7 +72,7 @@ body{
     border-bottom-right-radius: 80px;
     border-top-left-radius: 80px;
     padding:0px;
-    box-shadow: 20px 8px rgba(233, 227, 200, 0.6);
+    box-shadow: 20px 8px rgba(240, 228, 178, 0.6);
     
 }
 
@@ -98,19 +99,22 @@ body{
 
 .section2{
     border-left: 0px;
-    background-color:rgb(212, 212, 247);
+    background-color: rgb(212, 212, 247);
     border-bottom-right-radius: 80px;
 }
 
 .mainBody{
     padding: 40px;
-    margin-top: 75px;
+    margin-top: 50px;
+   
 
 }
+
 
 .gray h1{
     color:white;
     text-shadow: 2px 2px lightgray;
+    
 }
 
 .bg-dark{
