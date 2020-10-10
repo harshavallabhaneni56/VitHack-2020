@@ -50,8 +50,8 @@
       
        <div class="col-md-6 gray">
            <br><br><br><br>
-                
-                <img src="Images BG Removed/Asset 2.svg" class="welcomeImg img-fluid" alt="">
+           <br><br><br><br>
+           <img src="Images BG Removed/Asset 2.svg" class="welcomeImg img-fluid" alt="">
                 <br><br><br>
                 <h6 class="noAcc">Do you have an account already?<a href="login.html">Login-in here</a></h6>
                 <p>Need help? Contact: +91 9876543210</p>
@@ -64,6 +64,11 @@
             </div>
             <div class="loginBody green">
                 <form onSubmit = "return checkPassword(this)">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="name" class="form-control" id="name" >
+                    
+                  </div>
                    <div class="form-group">
                      <label for="exampleInputEmail1">Email address</label>
                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -81,10 +86,25 @@
                     <label for="exampleInputnumber">Phone-number</label>
                     <input type="number" class="form-control" id="mobile">
                   </div>
-                   <div class="form-group form-check">
+                  
+                    <div class="form-group">
+                      <label for="address">address</label>
+                      <input type="address" class="form-control" id="address" >
+                      
+                    </div>
+                    <div class="form-group">
+                      <label for="selection">Who are you?</label>
+                      
+                      <select id="profile">
+                        <option value="volvo">Farmer</option>
+                        <option value="saab">Consumer</option>
+                       
+                      </select>
+                      
+                    </div>
                     
                      
-                   </div>
+                
                    <button type="submit" class="btn btn-success" >Sign-up</button>
                  </form>
             </div>
